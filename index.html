@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To DO- List</title>
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <main class="main">
+
+      <article class="app-box">
+        <header class="header">
+
+          <div>
+            <h1 class="h1 header-title">My Day</h1>
+
+            <p class="header-time" data-header-time>Saturday, July 2</p>
+          </div>
+        </header>
+
+      
+
+        <div class="title-wrapper" data-welcome-note>
+          <img src="./assets/images/calender-image.svg" width="130" height="115" alt="calender image" class="img">
+
+          <h2 class="h2">
+            Wondering where <br>
+            your tasks are?
+          </h2>
+        </div>
+
+        <ul class="task-list" data-task-list></ul>
+
+        <div class="input-wrapper" title="Add a task in 'My Day'">
+
+          <input type="text" name="task" aria-label="Add task" maxlength="100"
+            placeholder="Try typing 'Jogging 20min at morning'" class="input-field" data-task-input>
+
+          <span class="input-text">Add a task</span>
+
+          <div class="input-icon">
+            <ion-icon name="add-outline" class="add-icon" aria-hidden="true"></ion-icon>
+
+            <ion-icon name="ellipse-outline" class="circle-icon" aria-hidden="true"></ion-icon>
+          </div>
+
+        </div>
+
+      </article>
+
+  <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
